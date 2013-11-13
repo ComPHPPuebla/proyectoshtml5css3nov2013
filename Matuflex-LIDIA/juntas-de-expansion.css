@@ -1,0 +1,141 @@
+*{
+	padding:0;
+	margin: 0;
+}
+ol li{
+	list-style: none;
+}
+
+h1 {
+	background-image: url("imgs/fondo-h1.gif");
+	background-repeat: no-repeat;
+	background-position:center left;
+	background-color: #002B5F;
+	color: white;
+	border-bottom: solid  2px white;
+	border-top: none;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 1.5em;
+	margin-bottom: 1em;
+	font-weight: bold;
+
+}
+h2{
+	background-image: url("imgs/fondo-h2.gif");  
+	background-position: left top;
+    background-repeat: no-repeat;
+	color: #FF5C00;
+	padding-left: 1.5em;
+	margin-bottom: 1em;
+	line-height: 55px;
+	font-size: 1.1em;
+	height: 53px;
+	text-transform: uppercase;
+	
+}
+h3{
+	background-image: url("imgs/fondo-h2.gif");  
+	background-position: center;
+    background-repeat: no-repeat;
+	color: #FF5C00;
+	margin-top: 3em;
+	clear: both;
+	text-indent: -38px;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+article p{
+	text-align: justify;
+}
+
+img{
+	float: right;
+}
+mark{
+background-color: #ff5c00;
+color: white;
+font-weight: bold;
+border-left:5px solid #fff;
+}
+.content{
+width: 96.7%;
+margin: auto;
+color: #002B5F;
+padding-bottom: 8em;
+}
+
+.branding{	
+	background-image: url("imgs/encabezado-matuflex.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	height: 270px;
+	
+}
+.logo{
+width: auto;
+float: right;
+margin-top: 40px;
+}
+.container{	
+background-image: url("http://www.matuflex.com/imagenes/fondo-contenido-inferior.gif");
+background-position: right bottom;
+background-repeat: no-repeat;
+border: solid 3px white;
+background-color: #FFE6C4;
+margin: 5px 10px;
+
+}
+p{
+	
+	margin: 1.3em auto;
+}
+body{
+	font-family: Tahoma;
+background-color: #002B5F;
+	height: 30em;
+}
+nav{
+	height: 2em;
+	background-color: #ff5c00;
+	border-top: solid 2px #fff;
+	border-bottom: solid 2px #fff;
+}
+ul{
+	list-style-type: none;
+	margin: auto;
+	width:80%;
+	padding: 3px;
+	line-height: 1.8em;
+}
+ul li{
+	float:left;
+	margin-right: 1.5em;
+	background-image: url("imgs/vineta-menu.gif");
+	background-position:left;
+	background-repeat: no-repeat;
+	padding-left:1.3em;
+}
+footer{
+	color: white;
+}
+footer p{
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 0.5em;
+}
+footer a{
+color: #fff;
+}
+nav a{
+color: #002B5F;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover {
+	color: #FF9505;
+	border-bottom: 1px dotted #002b5f;
+}

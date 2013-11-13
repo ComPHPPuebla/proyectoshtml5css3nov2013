@@ -1,0 +1,201 @@
+*{
+	padding:0;
+	margin: 0;
+}
+ol li{
+	list-style: none;
+}
+
+h1 {
+	background-image: url("imgs/fondo-h1.gif");
+	background-repeat: no-repeat;
+	background-position:center left;
+	background-color: #002B5F;
+	color: white;
+	border-bottom: solid  2px white;
+	border-top: none;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 1.5em;
+	margin-bottom: 1em;
+	font-weight: bold;
+
+}
+h2{
+	padding-left: 5em;
+	padding-bottom: -1em;
+	margin-bottom: 1em;
+	line-height: 55px;
+	font-size: 2em;
+}
+
+img{/*imagen h2*/
+float: right;
+width: 540px;
+height:233px;
+
+}
+.content .mangueras{
+
+	background-image: url("imgs/fondo-mangueras.gif");  
+	background-position: left center;
+    background-repeat: no-repeat;
+	height: 233px;
+	
+}
+.mangueras a{
+color:#FF5C00;
+}
+.content .mangueras  a:hover{
+border:1px dotted;
+color: #FF9505;
+
+}#mangueras{/*parrafo*/
+    clear: both;
+    height: 5em;
+	background-color: #002B5F;
+	color: white;
+	padding: 1em ;
+}
+.content .juntas{
+	background-image: url("imgs/fondo-juntas.gif");
+	background-position:left center;
+	background-repeat: no-repeat;
+	height: 233px;
+
+}
+.juntas a{
+color: #FFF;
+
+}
+.content .juntas a:hover{
+border:1px dotted;
+color: #FF9505;
+}
+#juntas{
+	color:#002B5F ;
+	background-color: #FF5C00;
+	height: 5em;
+	padding: 1em;
+}
+
+
+.content{
+width: 80%;
+margin: auto;
+color: #002B5F;
+}
+.content a{
+	text-decoration: none;
+}
+
+
+/*
+#menu{
+	font-weight: bold;
+	display: inline;
+}*/
+.branding{	
+	background-image: url("imgs/encabezado-matuflex.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	height: 270px;
+	
+}
+.logo{
+width: auto;
+float: right;
+margin-top: 40px;
+}
+.container{	
+background-image: url("imgs/fondo-contenido-inferior.gif");
+background-position: right bottom;
+background-repeat: no-repeat;
+border: solid 3px white;
+background-color: #FFE6C4;
+margin: 5px 10px;
+
+}
+p{
+	
+	margin: 1.3em auto;
+}
+body{
+	font-family: Tahoma;
+background-color: #002B5F;
+	height: 30em;
+}
+nav{
+	height: 2em;
+	background-color: #ff5c00;
+	border-top: solid 2px #fff;
+	border-bottom: solid 2px #fff;
+}
+ul{
+	list-style-type: none;
+	margin: auto;
+	width:80%;
+	padding: 3px;
+	line-height: 1.8em;
+}
+ul li{
+	float:left;
+	margin-right: 1.5em;
+	background-image: url("imgs/vineta-menu.gif");
+	background-position:left;
+	background-repeat: no-repeat;
+	padding-left:1.3em;
+}
+nav a{
+
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #002B5F;
+}
+nav a:hover{
+	border-bottom: 2px dotted #002b5f;
+	color:#FFF;
+}
+
+
+aside{
+
+	background-color: #002B5F;
+padding: 1em .5em;
+margin-right: 88px;
+margin-left: 88px;
+margin-bottom: 120px;
+
+}
+aside p{
+	text-align: center;
+	color:#FFFFFF;
+	margin: 1em;
+
+}
+mark{
+background-color: #ff5c00;
+color: white;
+font-weight: bold;
+border-left:5px solid #fff;
+}
+aside a{
+color: #ff5c00;
+}
+aside a:hover{
+color: #FF9505;
+}
+aside a:active{
+border: 1px dotted;
+}
+aside a:visited{
+border: 1px dotted;
+}
+footer a{
+	color: white;
+}
+footer p{
+	text-align: center;
+	color: #fff;
+}

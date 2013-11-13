@@ -1,0 +1,55 @@
+    <html>
+    <head>
+    <style>
+    th
+    {
+    font: bold 12px Arial, Helvetica, Verdana;    
+    background: #d5d5d5;
+    padding-top: 10px;
+    padding-left:2px;
+    padding-bottom: 10px;
+    text-align:center;    
+    vertical-align:bottom;
+    margin-bottom: 10px;
+    position:relative;
+    height:200px;
+    width:50px; /* ESTE VALOR ES "A" */
+    }
+     
+     
+    .rotar
+    {
+    display:block;
+    white-space:nowrap;
+    -webkit-transform-origin:25px 10px; /* ESTE VALOR SE CALCULA: A/2 */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform-origin:25px 10px; /* ESTE VALOR SE CALCULA: A/2 */
+    -moz-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    position:absolute;
+    bottom:125px;
+    left:0;
+    text-align: left;
+    line-height:20px;
+    background: green;
+    }
+    </style>
+    </head>
+    <body>
+     
+    <table><tr>
+    <th>NRO</th>
+    <th>ALUMNO</th>
+    <th>&nbsp;<div class="rotar">COMUNICACION 1</div></th>
+    <th>&nbsp;<div class="rotar">EDUCACION POR EL ARTE</div></th>
+    <th>&nbsp;<div class="rotar">RAZONAMIENTO LOGICO</div></th>
+    <th>&nbsp;<div class="rotar">HISTORIA</div></th>
+    <th>&nbsp;<div class="rotar">EDUCACION FISICA</div></th>
+    <th>&nbsp;<div class="rotar">ARTES MARCIALES</div></th>
+    <th>&nbsp;<div class="rotar">RELIGION</div></th>
+    <th>&nbsp;<div class="rotar">ALGEBRA</div></th>
+     
+    </tr></table>
+     
+    </body>
+    </html>
