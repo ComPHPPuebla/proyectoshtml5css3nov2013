@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Matuflex - Contacto</title>
+		<link href="disena-tu-manguera.css" type="text/css" rel="stylesheet">
+		<meta charset="utf-8">
+	</head>
+<body>
+	<div class="container">
+		<header class="branding">
+		
+			<img class="logo" src="imgs/logo-matuflex.gif" alt="matuflex"></a>
+		</header>
+		<nav>
+			<ul id="menu" >
+				<li class="active"><a href="nosotros.html"> NOSOTROS</a></li>
+				<li class="active"><a href="productos.html"> PRODUCTO</a></li>
+				<li class="active"><a href="disena-tu-manguera.html"> DESEÑA TU MANGUERA</a></li>
+				<li class="active"><a href="contacto.html"> CONTACTO</a></li>
+			</ul>
+		</nav>	
+		<div class="content">
+			<h1>Diseña tu manguera</h1>
+			
+				
+					<p>Diseñe su manguera en cuatro simples pasos:</p>
+					<ol>
+						<li><p><img src="imgs/paso-1.gif"> Ingrese la cantidad de piezas que desea adquirir</p></li>
+						<li><p><img src="imgs/paso-2.gif">Elija el diámetro de su manguera de la lista de medidas.</p></li>
+						<li><p><img src="imgs/paso-3.gif">Ingrese la longitud en metros de su manguera. </p></li>
+						<li><p><img src="imgs/paso-4.gif">Seleccione la conexión para los lados A y B dando click junto la imagen. </p></li>
+						<li><p><img src="imgs/paso-5.gif">Seleccione el tipo de material y especificación del mismo. </p></li>
+					</ol>
+					<br>
+			<p>Al terminar tendrá el nombre y cualidades de la manguera que necesita. </p>
+<form>
+	<table id="step-1" style="display: table;">
+   	  <tbody>
+        	<tr>
+            	<th colspan="2" class="col"> 1) Datos de la manguera
+	            </th>
+    	    </tr>
+        	<tr class="impar">
+	            <td>
+	                <label for="txtCantidadPiezas"> Numero de piezas a frabricar</label>
+	            </td>
+            <td>
+                <input id="txtCantidadPiezas" class="" type="text" maxlength="3" size="3" value="" name="txtCantidadPiezas"></input>
+                <div id="txtCantidadPiezasError" class="error">Escriba un número de piezas entre 1 y 500
+				</div>
+				<div id="divTxtPiezas"></div>
+			</td>
+
+			</tr>
+			<tr>
+			    <td id="next1" colspan="2">
+			        <input id="btnSiguiente" type="button" title="Siguiente" value="Continuar »"></input>
+			    </td>
+			</tr>
+	   </tbody>
+	</table>
+<!--tabla 2 segundo paso-->
+<table id="step-2" style="display: table;">
+    <tbody>
+        <tr>
+            <th colspan="2" class="col">
+                2) Datos de la manguera
+
+            </th>
+        </tr>
+        <tr class="impar">
+            <td>
+                <label for="cmbDiametro">
+
+                    Diametro (pulg):
+
+                </label>
+            </td>
+            <td>
+                <select id="cmbDiametro" name="cmbDiametro">
+                    <option selected="selected" value="" label="--Seleccione un diametro--">
+
+                        --Seleccione un diametro--
+
+                    </option>
+                    <option value="1/4" label="1/4">
+
+                        1/4
+
+                    </option>
+                    <option value="3/8" label="3/8">
+
+                        3/8
+
+                    </option>
+                    <option value="1/2" label="1/2">
+
+                        1/2
+
+                    </option>
+                    <option value="3/4" label="3/4">
+
+                        3/4
+
+                    </option>
+                    <option value="1" label=" 1 ">
+
+                         1 
+
+                    </option>
+                    <option value="1 1/4" label=" 1 1/4">
+
+                         1 1/4
+
+                    </option>
+                    <option value="1 1/2" label=" 1 1/2">
+
+                         1 1/2
+
+                    </option>
+                    <option value="2" label=" 2">
+
+                         2
+
+                    </option>
+                    <option value="2 1/2" label=" 2 1/2">
+
+                         2 1/2
+
+                    </option>
+                    <option value="3" label=" 3 ">
+
+                         3 
+
+                    </option>
+                    <option value="4" label=" 4 ">
+
+                         4 
+
+                    </option>
+                    <option value="5" label=" 5 ">
+
+                         5 
+
+                    </option>
+                    <option value="6" label=" 6 ">
+
+                         6 
+
+                    </option>
+                    <option value="8" label=" 8 ">
+
+                         8 
+
+                    </option>
+                    <option value="10" label=" 10 ">
+
+                         10 
+
+                    </option>
+                    <option value="12" label=" 12 ">
+
+                         12 
+
+                    </option>
+                    <option value="14" label=" 14 ">
+
+                         14 
+
+                    </option>
+                </select>
+                <div id="divDiametro"></div>
+            </td>
+        </tr>
+        <tr>
+            <td id="back2">
+                <input id="btnAnterior" type="button" title="Anterior" value="« Volver"></input>
+            </td>
+            <td id="next2">
+                <input id="btnSiguiente" type="button" title="Siguiente" value="Continuar »"></input>
+            </td>
+        </tr>
+    </tbody>
+
+</table>
+<!-- tercer paso-->
+<table id="step-3" style="display: table;">
+
+    
+    <tbody>
+        <tr>
+            <th colspan="2" class="col">
+
+                3) Datos de la manguera
+
+            </th>
+        </tr>
+        <tr class="impar">
+            <td>
+                <label for="txtMetros">
+
+                    Longitud total (mts.):
+
+                </label>
+            </td>
+            <td>
+                <input id="txtMetros" class="inline default" type="text" maxlength="3" size="3" value="" name="txtMetros"></input>
+                <input id="txtCentimetros" class="inline default" type="text" maxlength="3" size="3" value="" name="txtCentimetros"></input>
+                <div id="divLongitud" class="error">
+
+                    Escriba número de metros entre 0 y 100
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td id="back3"></td>
+            <td id="next3"></td>
+        </tr>
+    </tbody>
+
+</table>
+</form>
+						
+		
+		</div>
+		
+			<aside class="aside">
+			
+					<p>
+						En caso de no encontrar suficiente información para el ensamble de su manguera favor de 
+						<a href="buzon-atencion-cliente.html">contactarnos. </a>
+						
+				</p>	
+				
+				<p>
+					<mark>
+					SISTEMA DE CALIDAD BASADO EN NORMA ISO 9000
+					</mark>
+				</p>
+	
+			</aside>
+	</div>
+
+			<footer>
+			<p>
+				© Comercializadora Matuflex 2013. Todos los derechos reservados.
+			</p>
+				<p>
+		<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.matuflex.com%2Fmangueras-metalicas-flexibles.html"> CSS Válido  </a>
+	 |  <a href="http://www.cynthiasays.com/mynewtester/cynthia.exe/?rptmode=2&warnp2n3=1&url1=http://matuflex.com/mangueras-metalicas-flexibles.html"> WCAG 1.0 Prioridades 1, 2, y 3  </a>
+	 |  <a href="http://www.matuflex.com/declaracion-de-accesibilidad.html"> Declaración de accesibilidad  </a> 
+	 | <a href="http://www.matuflex.com/aviso-legal.html">  Aviso Legal  </a>
+	 | <a href="http://www.matuflex.com/mapa-del-sitio.html">  Mapa del sitio</a>
+</p>
+<p>
+Un desarrollo de <a href="http://www.mandragora-web-systems.com/">Mandrágora Web-Based Systems</a>
+</p>
+			</footer>
+</body>
+
+</html>

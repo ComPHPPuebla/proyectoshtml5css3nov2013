@@ -34,25 +34,7 @@ h2{
 	text-transform: uppercase;
 	
 }
-h3{
-	background-image: url("imgs/fondo-h2.gif");  
-	background-position: center;
-    background-repeat: no-repeat;
-	color: #FF5C00;
-	margin-top: 3em;
-	clear: both;
-	text-indent: -38px;
-	font-variant: small-caps;
-	text-align: center;
-}
 
-article p{
-	text-align: justify;
-}
-
-img{
-	float: right;
-}
 mark{
 background-color: #ff5c00;
 color: white;
@@ -79,7 +61,7 @@ float: right;
 margin-top: 40px;
 }
 .container{	
-background-image: url("http://www.matuflex.com/imagenes/fondo-contenido-inferior.gif");
+background-image: url("imgs/fondo-contenido-inferior.gif");
 background-position: right bottom;
 background-repeat: no-repeat;
 border: solid 3px white;
@@ -117,6 +99,51 @@ ul li{
 	background-repeat: no-repeat;
 	padding-left:1.3em;
 }
+
+
+.col{
+	background-color: #002B5F;
+	}
+table th{
+ color: #fff;
+}
+.impar{
+background-color: #DFEEFF;
+}
+table{
+border-collapse: collapse;
+}
+#btnAnterior{
+background-image: url("imgs/fondo-boton.gif");
+background-position: center center;
+background-repeat: no-repeat;
+background-color: transparent;
+border-style: none;
+padding: 20px 60px;
+font-weight: bold;
+color: #FF5C00;
+
+}
+#btnSiguiente{
+background-image: url("imgs/fondo-boton.gif");
+background-position: center center;
+background-repeat: no-repeat;
+background-color: transparent;
+border-style: none;
+padding: 20px 450px;
+font-weight: bold;
+color: #FF5C00;
+}
+.error{
+color: #F60F00;
+font-size: 0.8em;
+font-weight: bold;
+}
+#cmbDiametro{
+margin-left: 270px;
+margin-top: 8px;
+margin-bottom: 9px;
+}
 aside{
 
 	background-color: #002B5F;
@@ -132,7 +159,12 @@ aside p{
 	margin: 1em;
 
 }
-
+mark{
+background-color: #ff5c00;
+color: white;
+font-weight: bold;
+border-left:5px solid #fff;
+}
 aside a{
 color: #ff5c00;
 }

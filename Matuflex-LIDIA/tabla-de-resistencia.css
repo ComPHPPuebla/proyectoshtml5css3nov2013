@@ -76,9 +76,11 @@ background-position: right bottom;
 background-repeat: no-repeat;
 border: solid 3px white;
 background-color: #FFE6C4;
-margin: 5px 10px;
+margin: 30px 60px;
 
 }
+
+
 aside{
 	background-color: #002B5F;
 padding: 1em 0.5em;
@@ -151,15 +153,15 @@ ul li{/**/
     }
    
   table th{      
-   	white-space: nowrap;
-   	margin: 3em;
-  
-   }
+  margin: 3em;
+  }
   table {
+ width: 80%;
  border: 2px solid #002B5F;
  border-collapse:collapse;
  padding-bottom:5em;
-  }
+ margin-left: 8em;
+ }
  
  .vertical {
     padding: 6em -0.5em;

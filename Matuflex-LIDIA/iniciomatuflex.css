@@ -3,20 +3,22 @@
 	margin: 0;
 }
 body {
+
 	background-color: #002B5F;	
     font-family: Tahoma, serif;
     font-size: 0.98em;
     text-align: center;
 }
 header{
-	background-image: url(http://www.matuflex.com/imagenes/encabezado-principal.jpg);
+	background-image: url("imgs/encabezado-principal.jpg");
 	background-repeat: no-repeat;
 	width: 700px;
 	height: 285px;
 }
 #container{
+	border: solid 3px #fff;
 	background-color: #002B5F;
-	background-image: url(http://www.matuflex.com/imagenes/fondo-index.jpg);
+	background-image: url("imgs/fondo-index.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 	border-style: solid 3px #fff;
@@ -35,7 +37,7 @@ ul{
 ul li {
 	float:left;
 	margin-right: 1.3em;
-	background-image: url(http://www.matuflex.com/imagenes/vineta-menu-principal.gif);
+	background-image: url("imgs/vineta-menu-principal.gif");
 	background-position:left;
 	background-repeat: no-repeat;
 	padding-left:1.3em;
